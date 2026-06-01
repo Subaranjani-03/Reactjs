@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.container .box{
+    border: 1px solid blue;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

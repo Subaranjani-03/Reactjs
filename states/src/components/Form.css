@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: rgb(10, 10, 44);
+}
+
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+}
+form h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input,
+textarea,
+select{
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+textarea{
+    height: 60px;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    border-color: #0c1128;
+}
+
+input{
+    width: auto;
+    margin-right: 5px;
+}
+.radio-group,
+.checkbox-group{
+    display: flex;
+    gap: 20px;
+}
+#color{
+    width: 80px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card{
+    /* border: 1px solid red; */
+    width: 350px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.card h2{
+    text-align: center;
+}
+.card h3{
+    font-size: 1rem;
+    font-weight: 500;
+}

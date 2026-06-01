@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  /* border: 1px solid red; */
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 40px;
+  background: url(./assets/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wrapper form {
+  /* border: 1px solid red; */
+  padding: 20px;
+  width: 450px;
+  display: grid;
+  place-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+form h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #5f1634;
+}
+form label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+form input {
+  padding: 12px;
+  width: 350px;
+}
+form button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  background: white;
+}
+
+thead {
+  background-color: rgb(184, 97, 87, 0.5);
+  color: #1c1234;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+tbody {
+  background-color: rgb(28, 18, 52, 0.1);
+}
+
+button {
+  padding: 5px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to right, #1c1234, #5f1634, #b86157);
+  font-size: 0.9rem;
+}
+button:hover {
+  background: linear-gradient(to left, #1c1234, #5f1634, #b86157);
+}
+
+#updateBtn {
+  background-color: #ffc107;
+  color: white;
+}
+
+#deleteBtn {
+  background-color: #dc3545;
+  color: white;
+}
